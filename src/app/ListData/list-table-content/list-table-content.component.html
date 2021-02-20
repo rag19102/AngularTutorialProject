@@ -1,0 +1,21 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">FilePath</th>
+            <th scope="col">RestartCount</th>
+            <th scope="col">startTime</th>
+            <th scope="col">NameSpace</th>
+            <th scope="col">IsReady</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let employee of employees">
+        <tr>
+            <th scope="row">{{employee.podName}}</th>
+            <td>{{employee.restartCount}}</td>
+            <td>{{employee.startTime}}</td>
+            <td>{{employee.namespace}}</td>
+            <td>{{employee.ready}}</td>
+        </tr>
+
+    </tbody>
+</table>

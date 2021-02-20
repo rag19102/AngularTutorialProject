@@ -1,0 +1,13 @@
+.imageclass {
+    height: 200px;
+    width: 200px;
+}
+
+.verticle-align {
+    display: flex;
+    align-items: center;
+}
+
+.pointerCursor {
+    cursor: pointer;
+}
